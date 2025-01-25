@@ -5,7 +5,8 @@ theme: just-the-docs
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Forum Page: https://discussions.unity.com/t/ica-skinned-mesh-better-than-skinned-mesh-renderer-dual-quaternion-skinning-and-much-more/1581924
+  Sample: https://ica-dev.itch.io/ica-skinned-mesh-renderer-sample
 
 logo: "/assets/images/IcaSMR_icon.png"
 
