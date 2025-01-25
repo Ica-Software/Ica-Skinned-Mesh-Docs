@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Ica Skinned Mesh Docs
+description: Documentation for the Unity Asset Ica Skinned Mesh.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://ica-software.github.io
 
 aux_links:
   Forum Page: https://discussions.unity.com/t/ica-skinned-mesh-better-than-skinned-mesh-renderer-dual-quaternion-skinning-and-much-more/1581924
