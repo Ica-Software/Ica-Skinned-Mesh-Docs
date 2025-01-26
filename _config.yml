@@ -15,3 +15,10 @@ favicon_ico: "/assets/favicon/favicon.ico"
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
