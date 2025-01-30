@@ -6,12 +6,12 @@ nav_order: 2
 
 # Getting Started
 
-### To Use Ica Skinned Mesh Renderer:
+### To Use Ica Skinner:
 
 - Select your regular SMR in the hierarchy.
 
 - Go to context menu of the SMR Component, and click the
-"Setup IcaSMR".
+"Setup Ica Skinner".
 
 - If there was no Ica Skinner System in the scene, one will be created.
 
@@ -20,8 +20,8 @@ users, responsibility ensure that, for example you might make it a child object
 of a manager object that don't unload between scene switches.
 
 - A mesh filter and mesh renderer components will be added to object. 
-These are necessary to render the skinned mesh, since IcaSMR only handle the 
-skinning part, do not render itself.
+These are necessary to render the skinned mesh, since Ica Skinner only handle 
+the skinning part, does not render itself.
 
 - To change blend shape values, user should use the built in SMR inspector.
 
@@ -29,11 +29,11 @@ skinning part, do not render itself.
 should use the mesh renderer inspector.
 
 
-### To use Ica Attachment Renderer:
+### To use Ica Attachment Skinner:
 
 - Add your Attachment model to scene as a child of IcaSkinnedMeshRenderer Component.
 
-- At Mesh Renderer context menu select “Setup Ica Attachment Renderer” 
+- At Mesh Renderer context menu select “Setup Ica Attachment Skinner” 
 (similar to IcaSMR).
 
 
@@ -54,7 +54,8 @@ To use motion Vectors you need custom shader or modify your existing shader.
 Animation" setting.
 
 
+### In Code
 
 To Get-Set Material: Use Mesh Renderer methods (SetSharedMaterials etc) 
-To Get-Set Render Parameters: Use Mesh Renderer methods 
+To Get-Set Render Parameters: Use Mesh Renderer methods
 To Get-Set Blend Shapes: Use SMR methods
