@@ -28,14 +28,14 @@ Even if these limitations would not work four your project, it can be still
 valuable while development and prototyping.
  
  
- ## Usage
+ # Usage
  
- Atachment Skinner should be child of the Ica Skinner component.
+ Attachment Skinner should be child of the Ica Skinner component.
  
  Unlike Ica Skinner, Ica Attachment Skinner does not require SMR.
  
  All material and render parameter setting change edited via Mesh Renderer
  itself. 
  
- Attachmnet Skinner also support motion vectors too.
+ Attachment Skinner also support motion vectors too.
  
